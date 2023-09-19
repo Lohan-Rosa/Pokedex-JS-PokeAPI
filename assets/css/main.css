@@ -1,0 +1,12 @@
+.container-principal {
+    padding: 1rem;
+    background-color: #f6f8fc;
+    border-radius: 2rem;
+}
+
+@media (min-width: 992px) {
+    .container-principal {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+}
