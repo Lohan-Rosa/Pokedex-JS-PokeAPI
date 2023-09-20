@@ -2,6 +2,18 @@
     padding: 1rem;
     background-color: #f6f8fc;
     border-radius: 2rem;
+    margin-top: 5rem !important;
+}
+
+.container-principal>h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder !important;
+}
+
+body {
+    background-color: black;
 }
 
 @media (min-width: 992px) {
