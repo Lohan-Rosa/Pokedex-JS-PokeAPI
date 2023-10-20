@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> 
 
 <head>
     <meta charset="UTF-8">
@@ -33,45 +33,6 @@
             <button id="loadMoreButton" type="button"> Show more </button>
         </div>
     </section>
-
-    <section id="put">
-        <section class="stats-container-pokemon">
-            <div class="popup-pokemon ${Pokemon.type}">
-                    <div class="popup-img-pokemon">
-                        <div class="container-top">
-                            <a href="../Desenvolvimento-Web-JavaScript/index.html" id="back-button">
-                                <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
-                            </a>
-                            <span id="favorite-button" onclick="favButton(this.id)"><i
-                                    class="fa-regular fa-heart"></i></span>
-                        </div>
-                        <div class="container-name">
-                            <span class="font-name">${Pokemon.name}</span>
-                        </div>
-                        <div class="container-id font-id">
-                            <span>#${Pokemon.id}</span>
-                        </div>
-                        <ol class="container-types">
-                            ${Pokemon.types.map((type) => `<li class="${type}">${type}</li>`).join(``)}
-                        </ol>
-                        <div class="container-img-pokemon">
-                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif"
-                                alt="${Pokemon.name}">
-                        </div>
-                    </div>
-                <div class="popup-container-stats">
-                    <div class="container-stats">
-                        <button id="btnAbout" class="fontDisable stats-about">About</button>
-                        <button id="btnBase" class="fontDisable stats-base">Base Stats</button>
-                        <button id="btnEvolution" class="fontDisable stats-evolution">Evolution</button>
-                        <button id="btnMoves" class="fontDisable stats-moves">Moves</button>
-                    </div>
-                    <section id="section-stats">
-                    </section>
-                </div>
-            </div>
-        </section>
-    </section><aside>aaaa</aside>
 
     <script src="https://kit.fontawesome.com/923c75f2b7.js" crossorigin="anonymous"></script>
     <script src="../Desenvolvimento-Web-JavaScript/assets/js/pokeStats.js"></script>
