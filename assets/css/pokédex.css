@@ -72,7 +72,7 @@
 
 /** ------------------------------------------------------- */
 
-.container-button {
+#container-button {
     display: flex;
     justify-content: center !important;
     margin-top: 1rem;

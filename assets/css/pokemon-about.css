@@ -1,0 +1,117 @@
+.stats-container-pokemon {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 2rem;
+    margin-top: 5rem !important;
+    visibility: visible;
+    margin-bottom: 4rem;
+}
+
+.popup-pokemon {
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.popup-img-pokemon {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.popup-container-stats {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    width: 100% !important;
+    padding: 0rem 2rem 2rem 2rem;
+    background-color: #FFFFFF;
+}
+
+/*---------------------------------------------------------*/
+
+.container-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+#back-button {
+    font-size: 1.8rem;
+    transition: transform 0.8s;
+    transform: scale(1);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#back-button:hover{
+    transition: transform 0.8s;
+    transform: scale(1.30)
+}
+
+#favorite-button {
+    font-size: 1.8rem;
+    transition: 0.8s;
+    transform: scale(1);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#favorite-button:hover {
+    transition: 0.8s;
+    transform: scale(1.30);
+}
+
+/*---------------------------------------------------------*/
+
+.container-name {
+    margin-top: 2rem;
+    text-transform: capitalize;
+}
+
+.container-id {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-types {
+    display: flex;
+}
+
+.container-types>li {
+    display: flex;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255, 0.3);
+    text-align: center;
+    margin: 0.5rem 0.3rem;
+    padding: 0.4rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.container-img-pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28rem;
+    height: 20rem;
+    z-index: 2;
+}
+
+.container-img-pokemon>img {
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+
+@media (min-width: 1280px){
+    .popup-pokemon {
+        max-width: 512px;
+    }
+
+    #container-pokemon {
+        max-width: 40rem;
+    }
+}
